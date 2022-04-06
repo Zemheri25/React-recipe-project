@@ -1,0 +1,18 @@
+.fooddiv {
+    width: 10rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E0F1DD;
+    gap: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.foodimage {
+    width: 50%;
+    height: 5rem;
+    border-radius: 10px;
+}

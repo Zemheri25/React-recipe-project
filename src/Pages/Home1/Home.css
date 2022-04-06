@@ -1,0 +1,62 @@
+.formdiv {
+    display: flex;
+    border: 1px solid white;
+    width: 30rem;
+    padding: 1rem;
+    border-radius: 10px;
+    margin: 0rem auto;
+    
+    
+}
+
+.Home {
+    background-color: #00ADB5;
+    padding-top: 2rem;
+    min-height: 100vh;
+    
+}
+
+.searchbutton {
+    background-color: #E0F1DD;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 10px;
+    border: none;
+    color: black;
+    width: 5rem;
+    margin-right: 2rem;
+}
+
+.searchbutton:hover {
+    background-color: #00ADB5;
+    color: white;
+    border: 1px solid white;
+
+}
+
+.foodinput {
+    width: 14rem;
+    height: 3rem;
+    font-size: 1rem;
+    margin-right: 2rem;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 1px 1px 5px grey;
+    font-weight: 800;
+    color: gray;
+}
+
+.foods {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #00ADB5;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.select {
+    background-color: #E0F1DD;
+    border-radius: 10px;
+}
+

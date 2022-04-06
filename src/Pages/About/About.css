@@ -1,0 +1,20 @@
+.aboutdiv {
+    border: 2px solid white;
+    text-align: end;
+    width: 60%;
+
+}
+
+.about {
+    background-color: #00ADB5;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.myimage {
+    height: 15rem;
+    
+}

@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+
+.inputdiv {
+    border: 1px solid white;
+    display: flex;
+
+}
+.h1 {
+    font-family: 'Dancing Script', cursive;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #E0F1DD;
+    height: 4rem;
+    align-items: center;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.div2 {
+    display: flex;
+    
+    width: 30rem;
+    justify-content: space-between;
+}
+
+.logbutton {
+    border: none;
+    font-size: 2rem;
+    font-weight: 900;
+    color:cornflowerblue;
+    cursor: pointer;
+
+}
+
+.button {
+    background-color: #E0F1DD;
+    font-weight: 700;
+}
