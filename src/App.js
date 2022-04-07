@@ -6,8 +6,8 @@ import Main from "./Pages/Home/Main";
 function App() {
   const [value, setValue] = useState(false);
 
-  const realusername = "Zemheri25";
-  const realpassword = "79134256";
+  const realusername = "Zemheri";
+  const realpassword = "recipe";
 
   const addUser = (user) => {
     if (realusername == user?.username && realpassword == user?.password) {

@@ -19,6 +19,7 @@ function Login({addUser}) {
     <div className='logindiv'>
         <div className='input'>
             <img src={Man} alt="" className='image'/>
+            <h1>Zemheri / recipe</h1>
             <input type="text" name='username' onChange={(e) => setUsername(e.target.value)} className = "inputt" placeholder='USERNAME'/>
             <input type="password" name='password' onChange={(e) => setPassword(e.target.value)} className = "inputt" placeholder='PASSWORD'/>
             <button onClick={() => handleClick()} className = "logınbutton">LOG IN</button>

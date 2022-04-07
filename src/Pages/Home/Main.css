@@ -38,7 +38,26 @@
 
 }
 
+.hamburger {
+    display: none;
+}
+
 .button {
     background-color: #E0F1DD;
     font-weight: 700;
+}
+
+@media (max-width : 768px) {
+    .hamburger {
+        display: flex;
+        cursor: pointer;
+    }
+
+    .div2 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 12rem;
+        margin-bottom: 2rem;
+        width: 80%;
+    }
 }

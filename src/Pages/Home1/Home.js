@@ -7,7 +7,7 @@ import Select from "../../components/Select";
 
 function Home() {
   const [food, setFood] = useState([]);
-  const [filter, setFilter] = useState([]);
+
   const [value, setValue] = useState("");
   const [type, setType] = useState("");
 
@@ -17,10 +17,9 @@ function Home() {
   const getApi = async () => {
     try {
       const response = await axios(
-        `https://api.edamam.com/search?q=${value}&app_id=${APP_ID}&app_key=${APP_KEY}`
+        `https://api.edamam.com/search?q=${value}&app_id=${APP_ID}&app_key=${APP_KEY}&mealType=${type}`
       );
-    setFood(response?.data.hits);
-
+      setFood(response?.data.hits);
     } catch (error) {
       console.log(error);
     }
@@ -29,25 +28,10 @@ function Home() {
   const addValue = (neww) => {
     setType(neww);
   };
-  
-  
+
   const handleClick = async () => {
-      getApi().finally(filtered())
-      
+    getApi();
   };
-  
-  
-  const filtered = () => {
-    const filteredFood = food.filter((item) =>
-      String(item.recipe.mealType).includes(String(type))
-    );
-
-    setFilter(filteredFood);
-  };
-
-
-
-
 
   return (
     <div className="Home">
@@ -65,7 +49,7 @@ function Home() {
       </div>
 
       <div className="foods">
-        {filter?.map((item, index) => {
+        {food?.map((item, index) => {
           return <Food item={item} key={index} />;
         })}
       </div>
