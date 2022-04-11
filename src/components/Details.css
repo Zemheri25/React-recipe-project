@@ -1,0 +1,46 @@
+.moreinfodiv {
+    background-color: #00ADB5;
+    padding: 2rem;
+}
+
+.dietimage {
+    width: 10rem;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.details {
+    display: flex;
+    border: 1px solid white;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.nutrients {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.imagedetails {
+    height: 20rem;
+}
+
+.imagediv {
+    padding: 1rem;
+    border: 1px solid white;
+    height: 20rem;
+    border-radius: 20px;
+}
+
+.tarif {
+    width: 30rem;
+}
+
+.li {
+    margin-top: 2rem;
+}

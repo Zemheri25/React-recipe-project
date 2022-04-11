@@ -16,3 +16,16 @@
     height: 5rem;
     border-radius: 10px;
 }
+
+.morebutton {
+    border: none;
+    background-color: #00ADB5;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 3px 3px 5px ;
+}
+
+.morebutton:hover {
+    box-shadow: 1px 1px 5px ;
+}
